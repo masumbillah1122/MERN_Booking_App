@@ -1,0 +1,15 @@
+.hotelsContainer {
+    padding: 50px 10px;
+}
+
+.hotelsRow {
+    display: flex;
+}
+
+.hotelsRow .hotelsCol:first-child {
+    flex: 1;
+}
+
+.hotelsRow .hotelsCol:last-child {
+    flex: 3;
+}

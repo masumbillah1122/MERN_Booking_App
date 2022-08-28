@@ -1,0 +1,71 @@
+.searchItem {
+    margin-bottom: 15px;
+}
+
+.searchHotels {
+    position: sticky;
+    background-color: #ff7f50;
+    height: max-content;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.searchItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchItem label {
+    color: #ffffff;
+    letter-spacing: 1.3px;
+}
+
+.searchOptionsItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.searchItem input {
+    height: 40px;
+    padding: 0 20px;
+    color: #001e28;
+}
+
+.searchItem label:nth-child(2) {
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #001e28;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.searchItem .btnSearch {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: #001e28;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.searchItem .btnSearch:hover {
+    background-color: #ffffff;
+    color: #001e28;
+}
+
+.searchItem:nth-child(2) {
+    position: relative;
+}
+
+.searchItem:nth-child(2) .searchDate {
+    position: absolute;
+    top: 58px;
+    left: -10px;
+    box-shadow: 0 0 10px #ff7f50;
+}

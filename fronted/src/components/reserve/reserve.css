@@ -1,0 +1,95 @@
+.rcontainer {
+    background-color: #00000023;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.rreserve {
+    width: 600px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    padding: 15px 5px;
+}
+
+.rcol:first-child {
+    position: relative;
+}
+
+.rClose {
+    position: absolute;
+    right: -15px;
+    top: -30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.rcol:nth-child(2) {
+    margin-top: 40px;
+}
+
+.rdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.r-select {
+    letter-spacing: 1.3px;
+}
+
+.rcontent {
+    margin-top: 40px;
+}
+
+.rcontentinfo {
+    margin-bottom: 15px;
+    letter-spacing: 1.3px;
+}
+
+.rroom {
+    margin-bottom: 5px;
+}
+
+.r {
+    margin-bottom: 5px;
+}
+
+.rlabel {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked+label {
+    background-color: #ff7f50;
+    color: #000000;
+}
+
+input[type="checkbox"]:checked+label {
+    background-color: #cccccc !important;
+    color: #000000;
+}
+
+.bookingNow {
+    padding: 5px 10px;
+    display: block;
+    margin: 30px auto 0 auto;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 1.3px;
+}

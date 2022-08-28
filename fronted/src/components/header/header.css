@@ -1,0 +1,183 @@
+.h-container {
+    background-color: #001e28;
+    padding: 10px 25px;
+}
+
+.h-row:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-row:first-child .h-col:first-child a {
+    color: #ff7f50;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.h-row:first-child .h-col:last-child button {
+    padding: 2px 15px;
+    margin: 0 15px;
+    border: none;
+    background-color: #ffffff;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
+
+.h-row:first-child .h-col:last-child button:active {
+    transform: translateY(-2px);
+}
+
+.h-row:last-child {
+    margin-top: 30px;
+}
+
+.h-row:last-child .h-col .icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h-row:last-child .h-col .icons .icon {
+    color: #ffffff;
+    font-size: 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.h-row:last-child .h-col .icons .icon.active {
+    color: #ff7f50;
+    background-color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+
+.h-row:last-child .h-col .icons .icon a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.h-row:last-child .h-col .icons .icon.active a {
+    color: #ff7f50;
+}
+
+.h-row:last-child .h-col:first-child {
+    margin-bottom: 60px;
+}
+
+.h-row:last-child .h-col:first-child.smallHeader {
+    margin-bottom: 30px;
+}
+
+.h-row:last-child .h-col:nth-child(2) h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.h-row:last-child .h-col:nth-child(3) {
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.h-row:last-child .h-col .search {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    border: 3px solid #ff7f50;
+    background-color: #ffffff;
+    border-radius: 5px;
+    top: -15px;
+    width: 90%;
+}
+
+.h-row:last-child .h-col .search .search-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 16px;
+    border-right: 3px solid #ff7f50;
+}
+
+.h-row:last-child .h-col .search .search-item:last-child {
+    border-right: none;
+}
+
+.h-row:last-child .h-col .search .search-item svg {
+    margin-right: 5px;
+    color: #b8b8b8;
+}
+
+.h-row:last-child .h-col .search .search-item input {
+    height: 50px;
+    border: none;
+    outline: none;
+    letter-spacing: 1.3px;
+    color: #001e28;
+}
+
+.h-row:last-child .h-col .search .search-item input::placeholder {
+    color: #001e28;
+}
+
+.h-row:last-child .h-col .search .search-item span {
+    letter-spacing: 1.3px;
+}
+
+.h-row:last-child .h-col .search .search-item button.btnSearch {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: #001e28;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.h-row:last-child .h-col .search .search-item button.btnSearch:hover {
+    background-color: #000000;
+}
+
+.date {
+    position: absolute;
+    top: 55px;
+}
+
+.options {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    padding: 0 10px;
+    box-shadow: 0 0 10px #001e28;
+}
+
+.optionsItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.optionsButton .optionsBtn {
+    padding: 2px 5px;
+    border: none;
+    background-color: #001e28;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.optionsButton .optionsBtn:disabled {
+    background-color: #b8b8b8;
+}
+
+.optionsButton span {
+    margin: 0 10px;
+}

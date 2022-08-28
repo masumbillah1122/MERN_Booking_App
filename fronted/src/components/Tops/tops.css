@@ -1,0 +1,26 @@
+.cImage {
+    position: relative;
+}
+
+.cImage a {
+    text-decoration: none;
+    color: #001e28;
+}
+
+.cImgTitle {
+    color: #001e28;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #001e28;
+}
+
+.cImgP {
+    letter-spacing: 1.3px;
+    color: #001e28;
+}
+
+.cImage a img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}

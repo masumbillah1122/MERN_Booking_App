@@ -1,0 +1,13 @@
+.ptypeContainer {
+    margin-bottom: 100px;
+}
+
+.ptypeTitle {
+    margin-bottom: 10px;
+    letter-spacing: 1.3px;
+}
+
+.cityImage a {
+    text-decoration: none;
+    color: #001e28;
+}

@@ -1,0 +1,52 @@
+.subscribe {
+    margin-bottom: 100px;
+}
+
+.subscribeRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribeTitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #ff7f50;
+}
+
+.subscribeDesc {
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+
+.subscribeInput input {
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #001e28;
+    width: 300px;
+    letter-spacing: 1.2px;
+    color: #001e28;
+}
+
+.subscribeInput input::placeholder {
+    letter-spacing: 1.2px;
+}
+
+.subscribeInput button {
+    height: 40px;
+    background-color: #001e28;
+    color: #ffffff;
+    padding: 0 15px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+}
+
+.subscribeInput button:hover {
+    background-color: #ff7f50;
+}
